@@ -112,7 +112,7 @@ Start with creating a project and adding a dataset inside it, that will hold all
         <img width="700" alt="pictures" src="pictures/class2-1.png">
         <img width="700" alt="pictures" src="pictures/class2-2.png">
         <img width="700" alt="pictures" src="pictures/class2-3.png">
-7. Add 5 random key points with the label “key” to one item.
+7. Add 5 random key points with the label “key” to one item.<br>
     7.1
     annotation init receives the coordinates for the specific type, label, and optional attributes.
     With x,y coordinates: 
@@ -155,7 +155,7 @@ Start with creating a project and adding a dataset inside it, that will hold all
     |  0 | True        | /dog-car-folder/dogs and cars/car-2.jpg | car-2.jpg | file   | 6195b0baa5b393d186f677ec | False    | /dog-car-folder/dogs and cars |                  1 | https://gate.dataloop.ai/api/v1/datasets/6195b0b7642e3ee786c2250c | 2021-11-18T01:47:38.000Z | 6195b0b7642e3ee786c2250c |
     |  0 | True        | /dog-car-folder/dogs and cars/car-1.jpg | car-1.jpg | file   | 6195b0ba8ee9536781978a9f | False    | /dog-car-folder/dogs and cars |                  1 | https://gate.dataloop.ai/api/v1/datasets/6195b0b7642e3ee786c2250c | 2021-11-18T01:47:38.000Z | 6195b0b7642e3ee786c2250c |
     ```
-    And as we see from section [5.2](5.2) the cars are labeled with "class1".
+    And as we see from section 5.2 the cars are labeled with "class1".
 9. Create a query that retrieves all point annotations from the dataset.
    *Query*
     ```
